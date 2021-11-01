@@ -35,7 +35,7 @@ public class CustomListTest {
     @Test
     public void deleteCityTest() {
         int listSize = list.getCount();
-        City testCity = new City("Edmonton", "AB");
+        City testCity = new City("Calgary", "AB");
         list.addCity(testCity);
         list.deleteCity(testCity);
         assertEquals(listSize - 1, list.getCount());
